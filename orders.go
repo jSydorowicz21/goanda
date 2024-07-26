@@ -80,6 +80,7 @@ type OrderInfo struct {
 	} `json:"clientExtensions,omitempty"`
 	CreateTime       time.Time `json:"createTime"`
 	ID               string    `json:"id"`
+	TradeID          string    `json:"tradeId,omitempty"`
 	Instrument       string    `json:"instrument,omitempty"`
 	PartialFill      string    `json:"partialFill"`
 	PositionFill     string    `json:"positionFill"`

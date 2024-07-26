@@ -1,8 +1,8 @@
-module github.com/rollend/goanda
+module github.com/jsydorowicz21/goanda
 
 go 1.15
 
 require (
 	github.com/davecgh/go-spew v1.1.1
-	github.com/joho/godotenv v1.3.0
+	github.com/joho/godotenv v1.5.1
 )
