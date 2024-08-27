@@ -5,6 +5,7 @@ import (
 	"os"
 	"time"
 	"github.com/awoldes/goanda"
+
 	"github.com/davecgh/go-spew/spew"
 	"github.com/joho/godotenv"
 )

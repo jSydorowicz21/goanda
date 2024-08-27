@@ -1,3 +1,4 @@
+I have become the primary maintainer for the original repo and this one is now just for testing purposes
 # goanda
 A Golang wrapper for the [OANDA v20 API](http://developer.oanda.com/rest-live-v20/introduction/). Currently OANDA has wrappers for Python, Javascript and Java. Goanda exists to extend upon those languages because of the increasing popularity of Go.
 
@@ -24,7 +25,7 @@ Goanda can perform the following actions on your OANDA brokerage accounts:
 _Note: This package was created by a third party, and was not created by anyone affiliated with OANDA_
 
 ## Usage
-To use this package run `go get github.com/awoldes/goanda` then import it into your program and set it up following the snippets below.
+To use this package run `go get github.com/rollend/goanda` then import it into your program and set it up following the snippets below.
 
 ### Basic Example
 I suggest creating a `.env` file for your project to keep your secrets safe! Make sure you add a .gitignore file.
@@ -45,7 +46,7 @@ import (
 	"log"
 	"os"
 
-	"github.com/awoldes/goanda"
+	"github.com/rollend/goanda"
 	"github.com/davecgh/go-spew/spew"
 	"github.com/joho/godotenv"
 )
@@ -82,7 +83,7 @@ func main() {
 
 ```
 
-Look at the [`/examples`](https://github.com/AwolDes/goanda/tree/master/examples) directory for more!
+Look at the [`/examples`](https://github.com/rollend/goanda/tree/master/examples) directory for more!
 
 ## Contributing
 For now if you'd like to contribute create an Issue and/or submit a PR!

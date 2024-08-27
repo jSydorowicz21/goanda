@@ -5,9 +5,9 @@ import (
 	"os"
 	"time"
 
-	"github.com/awoldes/goanda"
 	"github.com/davecgh/go-spew/spew"
 	"github.com/joho/godotenv"
+	"github.com/rollend/goanda"
 )
 
 func updateOrder() {
